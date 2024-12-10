@@ -20,7 +20,7 @@ public class MathCommandTest {
     }
 
     @Test
-    void testAMultiplication(){
+    void testMultiplication(){
         MathCommand mathCommand = new MathCommand();
         int result = mathCommand.execute("multiply", 5, 4);
         assertEquals(20, result);
@@ -29,7 +29,7 @@ public class MathCommandTest {
     @Test
     void testDivison(){
         MathCommand mathCommand = new MathCommand();
-        int result = mathCommand.execute("add", 20, 4);
+        int result = mathCommand.execute("divide", 20, 4);
         assertEquals(5, result);
     }
 }

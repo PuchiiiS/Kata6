@@ -13,7 +13,7 @@ public class MathCommand implements Command{
                 return a - b;
             case "multiply":
                 return a * b;
-            case "divison":
+            case "divide":
                 if(b == 0){
                     throw new ArithmeticException("El dividendo no puede ser 0");
                 }
